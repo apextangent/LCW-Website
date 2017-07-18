@@ -9,6 +9,212 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<style>
+	@charset "UTF-8";
+/* CSS Document */
+.navbar {
+	background-color:#C0B283;
+	z-index: 9999;
+	border-bottom: none;
+}
+.navbar-default .navbar-toggle {
+      border-color: transparent;
+}
+.navtext {
+	font-family: Raleway;
+	font-size: 18px;
+	color: #000;
+}
+.navtext:hover {
+	color: #FFF;
+}
+#navlogo {
+	font-family: Raleway;
+	font-size: 30px;
+	color: #FFF;
+}
+.navbar-nav > li {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#profile {
+	background-image:url(images/splash_profile_alt.jpg);
+	position: relative;
+	height: 400px;
+	width: 400px;
+	background-color:#FFF;
+	border-radius: 50%;
+	margin: auto;
+	z-index: 1000;
+	border: 10px solid;
+	border-color: #4EC5C1;
+}
+#description {
+	position: relative;
+	height: 500px;
+	width: 500px;
+	margin: auto;
+	z-index: 1000;
+}
+.colpad {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.colpad-article {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#splash {
+	padding-top: 50px;
+	background-image:url(Backgrounds%20/background_alt.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#layer {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: #000;
+	opacity: 0.6;
+	z-index: 0;
+}
+#dsctext {
+	text-align: center;
+	font-size: 22px;
+	font-family: Raleway;
+	color: #FFF;
+	padding: 20px 20px 20px 20px;
+}
+.secondary {
+	background-color: #F4F4F4;
+}
+.imgcenter {
+	display: block;
+	margin: 0 auto;
+	padding-top: 25px; 
+}
+h1 {
+	font-family: Raleway;
+	color: #373737;
+	text-align: center;
+	font-weight: 300;
+}
+h3 {
+	font-family: Raleway;
+	color: #f6b524;
+	font-weight: 200;
+	text-align: center;
+}
+h4 {
+	font-family: Raleway;
+	color: #373737;
+	text-align: center;
+	font-weight: 200;
+}
+h5 {
+	font-family: Raleway;
+	color: #FFF;
+	font-weight: 100;
+	padding-top: 10px;
+	text-align: center;
+	margin: auto;
+}
+.story {
+	position: relative;
+	height: 300px; 
+	width: 400px;
+	background-color: #999;
+	margin: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.storyfooter {
+	width: 350px;
+	height: 50px;
+	background-color: #4a4a4a;
+	position: relative;
+	left: 0px;
+	top: 250px;
+}
+.storyenter {
+	height: 50px;
+	width: 50px;
+	background-color: #4EC5C1;
+	position: relative;
+	left: 350px;
+	top: 200px;
+	background-image: url(Vectors%20/plus.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.storyenter:hover {
+	cursor: pointer;
+	background-color: #6BFAF5;
+}
+#media {
+	background-color: #F4F4F4;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+.smicon {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	position: relative;
+	margin-right: 10px;
+	margin-left: 10px;
+	display: inline-block;
+}
+.rowpad {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin: auto;
+}
+#smholder {
+	height: 50px;
+	width: 294px;
+	display: block;
+	margin: 0 auto;
+}
+.infopad {
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+.inlinepad {
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+.inputpad {
+	padding-top: 0px;
+	padding-bottom: 30px;
+}
+.form-control {
+	background-color: #666;
+	border-color: #666;
+}
+input[type=text] {
+	color: #FFF;
+}
+textarea[type=text] {
+	color: #FFF;
+}
+.form-control:focus {
+	border-color: #4EC5C1;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(78, 197, 193, 1);
+}
+.btn-warning {
+	background-color: #4EC5C1;
+	border-color: #4EC5C1;
+}
+.btn-warning:hover {
+	background-color: #6BFAF5;
+	border-color: #6BFAF5;
+}
+</style>
 </head>
 <!--Designed and coded by Matthew Moore (www.mlmvisual.com)-->
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">

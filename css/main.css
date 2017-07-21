@@ -28,9 +28,8 @@
 #profile {
 	background-image:url(https://apextangent.github.io/LCW-Website/Images/SplashProfile.jpg);
 	position: relative;
-	height: auto;
-	max-width: 100%;
-	width: auto\9;/* IE8 */
+	height: 400px;
+	width: 400px;
 	background-color:#FFF;
 	border-radius: 50%;
 	margin: auto;
@@ -41,7 +40,7 @@
 #description {
 	position: relative;
 	height: 500px;
-	max-width: 500px;
+	width: 500px;
 	margin: auto;
 	z-index: 1000;
 }

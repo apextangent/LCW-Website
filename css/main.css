@@ -111,10 +111,11 @@ h5 {
 	margin: auto;
 }
 .subsection {
+	position: relative;
 	min-width: 250px;
 	max-width: 350px;
 	padding: 0px 20px 10px 20px;
-	margin: 0 auto 0 auto;
+	margin: auto;
 }
 .story {
 	position: relative;

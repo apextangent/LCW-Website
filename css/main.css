@@ -110,6 +110,11 @@ h5 {
 	text-align: center;
 	margin: auto;
 }
+.subsection {
+	min-width: 250px;
+	max-width: 350px;
+	padding: 0px 20px 10px 20px;
+}
 .story {
 	position: relative;
 	height: 300px; 
